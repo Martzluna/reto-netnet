@@ -1,0 +1,14 @@
+{
+    "movies": [
+        {
+            "name": "Matrix Recargado",
+            "genre": "estrenos",
+            "desc": "Neo, Morpheus, Trinity y el resto de la tripulación continúan en la lucha contra las máquinas que han esclavizado a la raza humana. Ahora más humanos han sido despertados e intentan vivir en el mundo real. A medida que aumentan en número, la batalla se acerca a Sion, la última ciudad real en el mundo y centro de la resistencia humana. Y tiene poco tiempo, muy poco tiempo... "
+        },
+        {
+            "name": "Bob Esponja",
+            "genre": "estrenos",
+            "desc": "Neo, Morpheus, Trinity y el resto de la tripulación continúan en la lucha contra las máquinas que han esclavizado a la raza humana. Ahora más humanos han sido despertados e intentan vivir en el mundo real. A medida que aumentan en número, la batalla se acerca a Sion, la última ciudad real en el mundo y centro de la resistencia humana. Y tiene poco tiempo, muy poco tiempo... "
+        }
+    ]
+}

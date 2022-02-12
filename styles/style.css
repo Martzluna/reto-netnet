@@ -1,0 +1,124 @@
+body {
+    background-color: #000 !important;
+    color: white !important;
+}
+.containerHeader{
+    width: 360px;
+}
+.titleLogo{
+    background-color:black;
+    height: 64px;
+    padding-left: 10px;
+    display:flex;
+    align-items: center;
+}
+.imgTitle{
+    height: 24px;
+    width: 55.84px;
+}
+.circle {
+    width: 5px;
+    height: 5px;
+    line-height: 5px;
+    border-radius: 50%;
+    background: #f1f1f1;
+  }
+  .containerList{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 300px;
+      align-items: center;
+     
+  }
+  .containerListTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+    color: #f1f1f1;
+    padding-bottom: 30px;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 48%, rgba(0,0,0,0) 100%);
+}
+.containerListTitle p {
+    margin: 20px;
+}
+
+  .containetMatrix{
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  p{
+      font-size: 12px;
+     
+
+  }
+  .carousel-caption{
+    left:5% !important
+  }
+  .playList{
+    margin-bottom: -30px;
+    margin-top: -7px;
+  }
+  button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  .listContent {
+      margin-top: 10px;
+      max-width: fit-content;
+  }
+  .listContent h1 {
+      font-size: 17.5PX;
+      font-weight: 700;
+  }
+
+  .contentGenres {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .containerFooter{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    width: 360px;
+    height: 64px;
+    position: sticky;
+    bottom: 0;
+}
+.containerFooter button{ 
+    width: 90px;
+}
+
+.modal {
+    max-width: 360px;
+    height: 100vh;
+}
+
+.modal-dialog {
+    height: 100vh;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+#description{
+    font-size: 14px;
+
+    
+}
+
+
+
+
