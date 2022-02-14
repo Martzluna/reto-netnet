@@ -86,7 +86,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         var image = document.createElement("img")
         image.setAttribute("src", `./images/${element.genre}/${index}.png`)
         cover.appendChild(image)
-        cover.onclick = () => showDetails(element)
+        cover.onclick = () => showDetails(element, index)
         animes.appendChild(cover)
     })
     data.filter(item => item.genre === "crimes").forEach((element, index) => {
@@ -94,7 +94,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         var image = document.createElement("img")
         image.setAttribute("src", `./images/${element.genre}/${index}.png`)
         cover.appendChild(image)
-        cover.onclick = () => showDetails(element)
+        cover.onclick = () => showDetails(element, index)
         crimes.appendChild(cover)
     })
     popularContent.appendChild(popular)
